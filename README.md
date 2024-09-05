@@ -1,5 +1,5 @@
 # Eduardo Fabri - Repositório Pessoal
-Bem-vindo ao repositório pessoal de Eduardo Fabri!<br>
+Bem-vindo ao meu repositório pessoal!<br>
 Este repositório contém projetos diversos e experimentos de desenvolvimento, incluindo sites pessoais, ferramentas, e outros códigos interessantes.
 
 # Site Pessoal
