@@ -76,7 +76,7 @@ ul li a {
 
 .zerosection {
     height: 100vh;
-    background-image: url(/images/img-background.png);
+    background-image: url(../images/img-background.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -207,7 +207,7 @@ ul li a {
     flex-direction: column;
     align-items: center;
     padding: 50px;
-    background-image: url(/images/img-background.png);
+    background-image: url(../images/img-background.png);
     background-size: cover;
     text-align: center;
 }
