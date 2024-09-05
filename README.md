@@ -1,11 +1,13 @@
 # Eduardo Fabri - Repositório Pessoal
-Bem-vindo ao repositório pessoal de Eduardo Fabri!<br>
-Este repositório contém projetos diversos e experimentos de desenvolvimento, incluindo sites pessoais, ferramentas, e outros códigos interessantes. Explore os projetos e contribua com sugestões ou melhorias!
+Bem-vindo ao meu repositório pessoal!<br>
+Este repositório contém projetos diversos e experimentos de desenvolvimento, incluindo sites pessoais, ferramentas, e outros códigos interessantes.
 
 # Site Pessoal
-Descrição: Um site pessoal com seções como 'Home', 'About', 'Projects' e 'Languages'. O layout e o estilo são ajustados para oferecer uma experiência visualmente agradável e responsiva.
-Tecnologias: HTML, CSS, JavaScript
-Controle de Versão: Git/GitHub
+Descrição: Um site pessoal com seções como 'Home', 'About', 'Projects' e 'Languages'. O layout e o estilo são ajustados para oferecer uma experiência visualmente agradável e responsiva.<br>
+
+Tecnologias: HTML, CSS, JavaScript<br>
+
+Controle de Versão: Git/GitHub<br>
 
 # Contato
 Você pode me encontrar nas redes sociais ou entrar em contato através do meu site pessoal.
