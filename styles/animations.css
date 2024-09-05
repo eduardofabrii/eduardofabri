@@ -1,0 +1,66 @@
+:root {
+    --color-first: rgb(219, 219, 219);
+    --color-second: rgb(3, 63, 152);
+}
+
+
+/* Animação do Header */
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.header-slide-down {
+    animation: slideDown 1.2s ease-out;
+}
+
+/* Animação da classe AboutMe */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.aboutme-animate {
+    animation: fadeInDown 1.2s ease-out;
+}
+
+
+/* Animação das Boxs */
+.boxs {
+    position: relative;
+    width: 370px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.content {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-second);
+    padding: 10px;
+    transition: bottom 0.3s ease;
+}
+
+.boxs:hover .content {
+    bottom: 0;
+}
+

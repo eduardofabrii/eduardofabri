@@ -1,0 +1,31 @@
+:root {
+    --color-first: rgb(219, 219, 219);
+    --color-second: rgb(3, 63, 152);
+    --color-three: rgb(0, 102, 255);
+}
+
+.three:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.1);
+}
+
+.four:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.1);
+}
+
+.btn-icons:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.1);
+}
+
+
+.lang:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.1);
+}
+
+ul li a:hover {
+    transition: color 0.5s ease;transition: color 0.3s ease;
+    color: var(--color-three);
+}

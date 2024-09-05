@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Root Variables */
+:root {
+    --color-primary: rgb(3, 63, 152);
+    --color-secondary: rgb(219, 219, 219);
+    --color-background: black;
+    --color-overlay: rgba(0, 0, 0, 0.7);
+    --color-footer: rgba(0, 0, 0, 0.959);
+    --font-family: 'Open Sans', sans-serif;
+    --font-weight-bold: 700;
+    --font-weight-normal: 300;
+    --font-weight-light: 100;
+    --font-size-large: 2.5em;
+    --font-size-medium: 1.5em;
+    --font-size-small: 1em;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--color-background);
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+}
+
+.logo_name {
+    color: var(--color-secondary);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+}
+
+/* Hero Section Styles */
+.zerosection {
+    height: 100vh;
+    background-image: url(/fabri/images/img-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutme {
+    width: 500px;
+    height: 360px;
+    padding-top: 250px;
+    padding-left: 310px;
+}
+
+.aboutme > h1 {
+    font-size: 4em;
+}
+
+.aboutme > .one, .two {
+    font-size: var(--font-size-medium);
+}
+
+.aboutme > p {
+    font-size: 2em;
+}
+
+.icondevelopers {
+    margin: 30px 0;
+    display: inline;
+    font-size: 1.2em;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.one {
+    padding: 5px 15px;
+    margin: 0 8px 0 0;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+}
+
+.three {
+    font-weight: var(--font-weight-bold);
+    width: 110px;
+    height: 35px;
+    display: inline-flex;
+    padding: 10px 15px;
+    margin: 10px 10px 0 0;
+    text-align: center;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.four {
+    margin: 20px;
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+#seemywork {
+    display: inline;
+    font-size: 1.2em;
+}
+
+/* About Section Styles */
+.firstsection {
+    height: 700px;
+    display: flex;
+    background-color: var(--color-background);
+}
+
+.eduardophoto {
+    padding-top: 100px;
+    padding-left: 320px;
+    box-shadow: rgba(0, 0, 0, 0.063) 0 0 10px 10px;
+}
+
+.eduardophoto img {
+    border-radius: 10px;
+}
+
+.textme {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    margin: 100px 100px;
+    font-size: 30px;
+}
+
+.textme > h3 {
+    font-weight: var(--font-weight-normal);
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.textme > p {
+    font-weight: var(--font-weight-light);
+    font-size: 24px;
+}
+
+.icons-me {
+    display: flex;
+    margin-top: 80px;
+    width: 170px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-me a {
+    margin: 0 5px;
+}
+
+/* Projects Section Styles */
+.aboutPro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background: url(/fabri/images/img-background.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.projetos {
+    border: 1px solid var(--color-secondary);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.projects-title {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 40px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project-info p {
+    font-size: 1em;
+    margin: 20px;
+}
+
+.project-image {
+    position: relative;
+    width: 100%;
+}
+
+.project-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--color-overlay);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-image:hover .project-overlay {
+    opacity: 1;
+}
+
+/* Languages Section Styles */
+.threesection {
+    height: 600px;
+    background: var(--color-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ullanguages {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages h2 { 
+    padding: 25px;
+    font-size: var(--font-size-large);
+    text-align: center;
+}
+
+.lang {
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.lang img {
+    width: 100px;
+    height: auto;
+    padding: 5px;
+}
+
+.lang p {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    text-align: center;
+    padding: 20px;
+}
+
+.social h3, p {
+    font-weight: 300;
+}
+
+.social-icons {
+    margin: 15px;
+}
+
