@@ -4,7 +4,9 @@ Este repositório contém projetos diversos e experimentos de desenvolvimento, i
 
 # Site Pessoal
 Descrição: Um site pessoal com seções como 'Home', 'About', 'Projects' e 'Languages'. O layout e o estilo são ajustados para oferecer uma experiência visualmente agradável e responsiva.<br>
+
 Tecnologias: HTML, CSS, JavaScript<br>
+
 Controle de Versão: Git/GitHub<br>
 
 # Contato
