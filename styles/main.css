@@ -327,3 +327,11 @@ footer {
     margin: 15px;
 }
 
+#curriculobutton {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}

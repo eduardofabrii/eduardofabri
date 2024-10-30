@@ -43,3 +43,8 @@ ul li a:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     transform: scale(1.1);
 }
+
+#curriculobutton:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.1);
+}
