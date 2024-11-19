@@ -313,7 +313,7 @@ ul li a {
 }
 
 footer {
-    background-color: var(--color-primary);
+    background-color: var(--color-footer);
     color: var(--color-secondary);
     text-align: center;
     padding: 20px;
@@ -326,6 +326,7 @@ footer {
 .social-icons {
     margin: 15px;
 }
+
 
 #curriculobutton {
     background-color: var(--color-primary);

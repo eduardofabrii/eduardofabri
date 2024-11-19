@@ -110,12 +110,13 @@
 
     .ullanguages {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
         gap: 10px;
         justify-items: center;
         align-items: center;
         margin-bottom: 70px;
     }
+    
 
     .lang img {
         max-width: 200px;
