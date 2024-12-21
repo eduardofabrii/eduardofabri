@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+@font-face {
+    font-family: 'SF-Pro';
+    src: url(/fonts/SF-Pro.ttf);
+}
+
 :root {
     --color-primary: rgb(3, 63, 152);
     --color-secondary: rgb(219, 219, 219);
@@ -18,7 +23,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: var(--font-family);
+    font-family: 'SF-Pro', sans-serif;
     text-decoration: none;
     color: var(--color-secondary);
 }
